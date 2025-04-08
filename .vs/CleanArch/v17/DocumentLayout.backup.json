@@ -1,0 +1,661 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\opera\\aspnet\\CleanArch\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|solutionrelative:cleanarch.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.mvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|solutionrelative:cleanarch.mvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.mvc\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|solutionrelative:cleanarch.mvc\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.mvc\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|solutionrelative:cleanarch.mvc\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B0233B-31CB-4157-B746-B3869220E99D}|CleanArch.Application\\CleanArch.Application.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.application\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B0233B-31CB-4157-B746-B3869220E99D}|CleanArch.Application\\CleanArch.Application.csproj|solutionrelative:cleanarch.application\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.mvc\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|solutionrelative:cleanarch.mvc\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.mvc\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|solutionrelative:cleanarch.mvc\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B0233B-31CB-4157-B746-B3869220E99D}|CleanArch.Application\\CleanArch.Application.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B0233B-31CB-4157-B746-B3869220E99D}|CleanArch.Application\\CleanArch.Application.csproj|solutionrelative:cleanarch.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56F6F6AA-510C-405A-A14B-A1C3AF309C94}|CleanArch.Domain\\CleanArch.Domain.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56F6F6AA-510C-405A-A14B-A1C3AF309C94}|CleanArch.Domain\\CleanArch.Domain.csproj|solutionrelative:cleanarch.domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56F6F6AA-510C-405A-A14B-A1C3AF309C94}|CleanArch.Domain\\CleanArch.Domain.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56F6F6AA-510C-405A-A14B-A1C3AF309C94}|CleanArch.Domain\\CleanArch.Domain.csproj|solutionrelative:cleanarch.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EE2BF9-986B-469F-9D93-D12647DE958B}|CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.infra.data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EE2BF9-986B-469F-9D93-D12647DE958B}|CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj|solutionrelative:cleanarch.infra.data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A94516E9-AE46-4764-846A-ED06B6251349}|CleanArch.Data.IoC\\CleanArch.Infra.IoC.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.data.ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A94516E9-AE46-4764-846A-ED06B6251349}|CleanArch.Data.IoC\\CleanArch.Infra.IoC.csproj|solutionrelative:cleanarch.data.ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B0233B-31CB-4157-B746-B3869220E99D}|CleanArch.Application\\CleanArch.Application.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.application\\mappings\\viewmodeltodomainmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B0233B-31CB-4157-B746-B3869220E99D}|CleanArch.Application\\CleanArch.Application.csproj|solutionrelative:cleanarch.application\\mappings\\viewmodeltodomainmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B0233B-31CB-4157-B746-B3869220E99D}|CleanArch.Application\\CleanArch.Application.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.application\\mappings\\domaintoviewmodelmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B0233B-31CB-4157-B746-B3869220E99D}|CleanArch.Application\\CleanArch.Application.csproj|solutionrelative:cleanarch.application\\mappings\\domaintoviewmodelmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B0233B-31CB-4157-B746-B3869220E99D}|CleanArch.Application\\CleanArch.Application.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5B0233B-31CB-4157-B746-B3869220E99D}|CleanArch.Application\\CleanArch.Application.csproj|solutionrelative:cleanarch.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EE2BF9-986B-469F-9D93-D12647DE958B}|CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.infra.data\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EE2BF9-986B-469F-9D93-D12647DE958B}|CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj|solutionrelative:cleanarch.infra.data\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EE2BF9-986B-469F-9D93-D12647DE958B}|CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.infra.data\\entityconfigurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EE2BF9-986B-469F-9D93-D12647DE958B}|CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj|solutionrelative:cleanarch.infra.data\\entityconfigurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.mvc\\cleanarch.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|solutionrelative:cleanarch.mvc\\cleanarch.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.mvc\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|solutionrelative:cleanarch.mvc\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B0233B-31CB-4157-B746-B3869220E99D}|CleanArch.Application\\CleanArch.Application.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.application\\cleanarch.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E5B0233B-31CB-4157-B746-B3869220E99D}|CleanArch.Application\\CleanArch.Application.csproj|solutionrelative:cleanarch.application\\cleanarch.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EE2BF9-986B-469F-9D93-D12647DE958B}|CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.infra.data\\migrations\\20250328152124_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EE2BF9-986B-469F-9D93-D12647DE958B}|CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj|solutionrelative:cleanarch.infra.data\\migrations\\20250328152124_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EE2BF9-986B-469F-9D93-D12647DE958B}|CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.infra.data\\cleanarch.infra.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{36EE2BF9-986B-469F-9D93-D12647DE958B}|CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj|solutionrelative:cleanarch.infra.data\\cleanarch.infra.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EE2BF9-986B-469F-9D93-D12647DE958B}|CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.infra.data\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EE2BF9-986B-469F-9D93-D12647DE958B}|CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj|solutionrelative:cleanarch.infra.data\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EE2BF9-986B-469F-9D93-D12647DE958B}|CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.infra.data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EE2BF9-986B-469F-9D93-D12647DE958B}|CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj|solutionrelative:cleanarch.infra.data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36EE2BF9-986B-469F-9D93-D12647DE958B}|CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.infra.data\\migrations\\20250328214210_populatabela.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36EE2BF9-986B-469F-9D93-D12647DE958B}|CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj|solutionrelative:cleanarch.infra.data\\migrations\\20250328214210_populatabela.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.mvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|solutionrelative:cleanarch.mvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|solutionrelative:cleanarch.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.mvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|solutionrelative:cleanarch.mvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|solutionrelative:cleanarch.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.mvc\\mappingconfig\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|solutionrelative:cleanarch.mvc\\mappingconfig\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56F6F6AA-510C-405A-A14B-A1C3AF309C94}|CleanArch.Domain\\CleanArch.Domain.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.domain\\cleanarch.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{56F6F6AA-510C-405A-A14B-A1C3AF309C94}|CleanArch.Domain\\CleanArch.Domain.csproj|solutionrelative:cleanarch.domain\\cleanarch.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A94516E9-AE46-4764-846A-ED06B6251349}|CleanArch.Data.IoC\\CleanArch.Infra.IoC.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.data.ioc\\cleanarch.infra.ioc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A94516E9-AE46-4764-846A-ED06B6251349}|CleanArch.Data.IoC\\CleanArch.Infra.IoC.csproj|solutionrelative:cleanarch.data.ioc\\cleanarch.infra.ioc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.mvc\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|solutionrelative:cleanarch.mvc\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|solutionrelative:cleanarch.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.mvc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|solutionrelative:cleanarch.mvc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|solutionrelative:cleanarch.mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.mvc\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|solutionrelative:cleanarch.mvc\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.mvc\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|solutionrelative:cleanarch.mvc\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|c:\\users\\opera\\aspnet\\cleanarch\\cleanarch.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{783CCAB0-5656-4E53-B8FD-FE52B6AAA5B4}|CleanArch.MVC\\CleanArch.MVC.csproj|solutionrelative:cleanarch.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Application\\ViewModels\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "CleanArch.Application\\ViewModels\\ProductViewModel.cs",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Application\\ViewModels\\ProductViewModel.cs",
+              "RelativeToolTip": "CleanArch.Application\\ViewModels\\ProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T02:06:49.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CleanArch.MVC\\Views\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "CleanArch.MVC\\Views\\Products\\Edit.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T01:49:48.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "CleanArch.MVC\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "CleanArch.MVC\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T19:58:30.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "CleanArch.MVC\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "CleanArch.MVC\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T19:45:11.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "CleanArch.MVC\\Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "CleanArch.MVC\\Views\\Products\\Details.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T02:23:48.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Views\\Products\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CleanArch.MVC\\Views\\Products\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Views\\Products\\Delete.cshtml",
+              "RelativeToolTip": "CleanArch.MVC\\Views\\Products\\Delete.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T20:49:03.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\appsettings.json",
+              "RelativeDocumentMoniker": "CleanArch.MVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\appsettings.json",
+              "RelativeToolTip": "CleanArch.MVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-02T19:35:11.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "CleanArch.Application\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "CleanArch.Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAUwAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T02:38:10.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "CleanArch.Domain\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "CleanArch.Domain\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T19:47:57.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "CleanArch.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "CleanArch.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T19:47:39.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Infra.Data\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "CleanArch.Infra.Data\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Infra.Data\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "CleanArch.Infra.Data\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowA8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T19:49:05.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Data.IoC\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "CleanArch.Data.IoC\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Data.IoC\\DependencyInjection.cs",
+              "RelativeToolTip": "CleanArch.Data.IoC\\DependencyInjection.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAArwBEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:47:22.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ViewModelToDomainMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Application\\Mappings\\ViewModelToDomainMappingProfile.cs",
+              "RelativeDocumentMoniker": "CleanArch.Application\\Mappings\\ViewModelToDomainMappingProfile.cs",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Application\\Mappings\\ViewModelToDomainMappingProfile.cs",
+              "RelativeToolTip": "CleanArch.Application\\Mappings\\ViewModelToDomainMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T02:06:35.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DomainToViewModelMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Application\\Mappings\\DomainToViewModelMappingProfile.cs",
+              "RelativeDocumentMoniker": "CleanArch.Application\\Mappings\\DomainToViewModelMappingProfile.cs",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Application\\Mappings\\DomainToViewModelMappingProfile.cs",
+              "RelativeToolTip": "CleanArch.Application\\Mappings\\DomainToViewModelMappingProfile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T02:06:29.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Application\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "CleanArch.Application\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Application\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "CleanArch.Application\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T19:47:09.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Infra.Data\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "CleanArch.Infra.Data\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Infra.Data\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "CleanArch.Infra.Data\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T19:48:59.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Infra.Data\\EntityConfigurations\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "CleanArch.Infra.Data\\EntityConfigurations\\ProductConfiguration.cs",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Infra.Data\\EntityConfigurations\\ProductConfiguration.cs",
+              "RelativeToolTip": "CleanArch.Infra.Data\\EntityConfigurations\\ProductConfiguration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T19:48:30.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CleanArch.MVC.csproj",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\CleanArch.MVC.csproj",
+              "RelativeDocumentMoniker": "CleanArch.MVC\\CleanArch.MVC.csproj",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\CleanArch.MVC.csproj",
+              "RelativeToolTip": "CleanArch.MVC\\CleanArch.MVC.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-03T20:47:23.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Startup.cs",
+              "RelativeDocumentMoniker": "CleanArch.MVC\\Startup.cs",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Startup.cs",
+              "RelativeToolTip": "CleanArch.MVC\\Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T02:39:13.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CleanArch.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Application\\CleanArch.Application.csproj",
+              "RelativeDocumentMoniker": "CleanArch.Application\\CleanArch.Application.csproj",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Application\\CleanArch.Application.csproj",
+              "RelativeToolTip": "CleanArch.Application\\CleanArch.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-03T20:47:18.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CleanArch.Infra.Data.csproj",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj",
+              "RelativeDocumentMoniker": "CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj",
+              "RelativeToolTip": "CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-04T02:04:44.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Infra.Data\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CleanArch.Infra.Data\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Infra.Data\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CleanArch.Infra.Data\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T19:48:19.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250328152124_Inicial.cs",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Infra.Data\\Migrations\\20250328152124_Inicial.cs",
+              "RelativeDocumentMoniker": "CleanArch.Infra.Data\\Migrations\\20250328152124_Inicial.cs",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Infra.Data\\Migrations\\20250328152124_Inicial.cs",
+              "RelativeToolTip": "CleanArch.Infra.Data\\Migrations\\20250328152124_Inicial.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:47:38.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Infra.Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "CleanArch.Infra.Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Infra.Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "CleanArch.Infra.Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMUAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T02:05:32.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20250328214210_PopulaTabela.cs",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Infra.Data\\Migrations\\20250328214210_PopulaTabela.cs",
+              "RelativeDocumentMoniker": "CleanArch.Infra.Data\\Migrations\\20250328214210_PopulaTabela.cs",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Infra.Data\\Migrations\\20250328214210_PopulaTabela.cs",
+              "RelativeToolTip": "CleanArch.Infra.Data\\Migrations\\20250328214210_PopulaTabela.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwB8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:47:27.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CleanArch.MVC\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "CleanArch.MVC\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T20:47:06.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Program.cs",
+              "RelativeDocumentMoniker": "CleanArch.MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Program.cs",
+              "RelativeToolTip": "CleanArch.MVC\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T19:35:09.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "CleanArch.MVC\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "CleanArch.MVC\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T18:57:20.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CleanArch.MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CleanArch.MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T18:57:22.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AutoMapperConfig.cs",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\MappingConfig\\AutoMapperConfig.cs",
+              "RelativeDocumentMoniker": "CleanArch.MVC\\MappingConfig\\AutoMapperConfig.cs",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\MappingConfig\\AutoMapperConfig.cs",
+              "RelativeToolTip": "CleanArch.MVC\\MappingConfig\\AutoMapperConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T19:16:05.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CleanArch.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Domain\\CleanArch.Domain.csproj",
+              "RelativeDocumentMoniker": "CleanArch.Domain\\CleanArch.Domain.csproj",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Domain\\CleanArch.Domain.csproj",
+              "RelativeToolTip": "CleanArch.Domain\\CleanArch.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-04T02:06:21.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CleanArch.Infra.IoC.csproj",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Data.IoC\\CleanArch.Infra.IoC.csproj",
+              "RelativeDocumentMoniker": "CleanArch.Data.IoC\\CleanArch.Infra.IoC.csproj",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.Data.IoC\\CleanArch.Infra.IoC.csproj",
+              "RelativeToolTip": "CleanArch.Data.IoC\\CleanArch.Infra.IoC.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-04T02:37:45.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CleanArch.MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CleanArch.MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T19:53:56.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "CleanArch.MVC\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "CleanArch.MVC\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAqwF4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:39:09.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "CleanArch.MVC\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\appsettings.Development.json",
+              "RelativeToolTip": "CleanArch.MVC\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T20:47:09.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CleanArch.MVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "CleanArch.MVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T02:35:29.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CleanArch.MVC\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "CleanArch.MVC\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T02:35:20.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "CleanArch.MVC\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "CleanArch.MVC\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T02:35:35.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CleanArch.MVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\opera\\aspnet\\CleanArch\\CleanArch.MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CleanArch.MVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T02:35:31.629Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
