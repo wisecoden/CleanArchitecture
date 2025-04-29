@@ -1,0 +1,23 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+
+# Others
+*.db
+*.sqlite
+*.log
+
+# Rider (caso use JetBrains)
+.idea/
+
+# Configurações específicas temporárias
+*.swp
+*.bak
+*.tmp

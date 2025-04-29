@@ -2,10 +2,11 @@
 using CleanArch.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using CleanArch.Infra.Data.EntityConfigurations;
+using CleanArch.Infra.Data.Identity;
 
 namespace CleanArch.Infra.Data.Context  
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : IdentityDbContext<User>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
