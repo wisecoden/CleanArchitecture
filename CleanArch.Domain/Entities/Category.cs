@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace CleanArch.Domain.Entities
 {
-    public class Product
+    public class Category
     {
-      
+       
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Description { get; set; }
-        public decimal Price { get; set; }
 
+        // Relacionamento muitos-para-muitos com Product
         public ICollection<ProductCategory> ProductCategories { get; set; }
     }
 }

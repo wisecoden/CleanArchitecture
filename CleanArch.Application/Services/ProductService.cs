@@ -23,6 +23,17 @@ namespace CleanArch.Application.Services
         public void Add(ProductViewModel product)
         {
             var mapProduct = _mapper.Map<Product>(product);
+
+            if (product.CategoryIds != null && product.CategoryIds.Any())
+            {
+                mapProduct.ProductCategories = product.CategoryIds
+                    .Select(categoryId => new ProductCategory
+                    {
+                        CategoryId = categoryId,
+                        Product = mapProduct
+                    }).ToList();
+            }
+
             _productRepository.Add(mapProduct);
         }
 

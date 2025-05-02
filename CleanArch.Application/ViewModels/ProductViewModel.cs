@@ -30,6 +30,8 @@ namespace CleanArch.Application.ViewModels
         [DisplayName("Price")]
         public decimal Price { get; set; }
 
+        public List<int> CategoryIds { get; set; } = new List<int>();
+
     }
 
 

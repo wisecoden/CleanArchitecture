@@ -29,6 +29,7 @@ namespace CleanArch.Infra.Data.Repositories
 
         public void Add(Product product)
         {
+
             _context.Add(product);
             _context.SaveChanges();
         }

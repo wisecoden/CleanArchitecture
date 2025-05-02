@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using CleanArch.Application.Interfaces;
 using CleanArch.Application.Services;
 using CleanArch.Domain.Interfaces;
+using CleanArch.Domain.Interfaces.CleanArch.Domain.Interfaces;
 using CleanArch.Infra.Data.Context;
 using CleanArch.Infra.Data.Identity;
 using CleanArch.Infra.Data.Repositories;
@@ -31,6 +32,8 @@ namespace CleanArch.Infra.IoC
             
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<ICategoryService, CategoryService>();
 
             return services;
         }
