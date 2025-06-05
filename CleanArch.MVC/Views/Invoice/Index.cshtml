@@ -1,0 +1,57 @@
+﻿@model IEnumerable<CleanArch.Application.ViewModels.InvoiceViewModel>
+
+@{
+    ViewData["Title"] = "Sales Management";
+}
+
+<h2>Sales Management</h2>
+<hr />
+<a asp-action="Create" class="btn btn-primary mb-3">Register New</a>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">Nenhuma venda registrada.</div>
+}
+else
+{
+    foreach (var invoice in Model)
+    {
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header d-flex justify-content-between">
+                <div>
+                    <strong>ID Sale:</strong> @invoice.Id<br />
+                    <strong>Date:</strong> @invoice.CreatedAt.ToString("dd/MM/yyyy HH:mm")<br />
+                    <strong>Total:</strong> @invoice.Total.ToString("C")
+                </div>
+
+                <form asp-action="Delete" method="post" asp-route-id="@invoice.Id" onsubmit="return confirm('Deseja realmente excluir esta venda?');">
+                    <button type="submit" class="btn btn-danger btn-sm mt-2">Delete</button>
+                </form>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Products</h5>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th>Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in invoice.InvoiceProducts)
+                        {
+                            <tr>
+                                <td>@item.ProductName</td>
+                                <td>@item.Quantity</td>
+                                <td>@item.Price.ToString("C")</td>
+                                <td>@(item.Quantity * item.Price)</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+}

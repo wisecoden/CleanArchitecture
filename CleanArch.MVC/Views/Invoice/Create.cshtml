@@ -1,0 +1,53 @@
+﻿@model CleanArch.Application.ViewModels.InvoiceViewModel
+@using CleanArch.Application.ViewModels
+
+@{
+    ViewBag.Title = "Register new Sales";
+    var products = ViewBag.Products as List<ProductViewModel> ?? new();
+}
+
+<h2>Register new Sales</h2>
+<hr />
+@if (ViewData.ModelState.TryGetValue("", out var errors) && errors.Errors.Any())
+{
+    <div class="alert alert-danger">
+        <strong>Erro:</strong> @errors.Errors.First().ErrorMessage
+    </div>
+}
+
+<form asp-action="Create" method="post">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < products.Count; i++)
+            {
+                <tr>
+                    <td>
+                        <input type="checkbox" name="InvoiceProducts[@i].IsSelected" value="true" />
+                        <input type="hidden" name="InvoiceProducts[@i].ProductId" value="@products[i].Id" />
+                        <input type="hidden" name="InvoiceProducts[@i].Price" value="@products[i].Price" />
+                    </td>
+                    <td>@products[i].Name</td>
+                    <td>@products[i].Price.ToString("C")</td>
+                    <td>
+                        <input type="number" name="InvoiceProducts[@i].Quantity" value="1" min="1" class="form-control" />
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Create" class="btn btn-success" />
+            <a asp-action="Index" class="btn btn-info">Back to List</a>
+        </div>
+    </div>
+  
+</form>
