@@ -37,7 +37,7 @@ namespace CleanArch.Infra.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
 
                     b.HasData(
                         new
@@ -55,6 +55,58 @@ namespace CleanArch.Infra.Data.Migrations
                             Id = 3,
                             Name = "Papelaria"
                         });
+                });
+
+            modelBuilder.Entity("CleanArch.Domain.Entities.Invoice", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<decimal>("Total")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Invoices", (string)null);
+                });
+
+            modelBuilder.Entity("CleanArch.Domain.Entities.InvoiceProduct", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("InvoiceId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("InvoiceId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("InvoiceProducts", (string)null);
                 });
 
             modelBuilder.Entity("CleanArch.Domain.Entities.Product", b =>
@@ -81,7 +133,7 @@ namespace CleanArch.Infra.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", (string)null);
 
                     b.HasData(
                         new
@@ -119,10 +171,10 @@ namespace CleanArch.Infra.Data.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("ProductCategories");
+                    b.ToTable("ProductCategories", (string)null);
                 });
 
-            modelBuilder.Entity("CleanArch.Infra.Data.Identity.User", b =>
+            modelBuilder.Entity("CleanArch.Infra.Data.Identity.ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -324,6 +376,25 @@ namespace CleanArch.Infra.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("CleanArch.Domain.Entities.InvoiceProduct", b =>
+                {
+                    b.HasOne("CleanArch.Domain.Entities.Invoice", "Invoice")
+                        .WithMany("InvoiceProducts")
+                        .HasForeignKey("InvoiceId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CleanArch.Domain.Entities.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Invoice");
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("CleanArch.Domain.Entities.ProductCategory", b =>
                 {
                     b.HasOne("CleanArch.Domain.Entities.Category", "Category")
@@ -354,7 +425,7 @@ namespace CleanArch.Infra.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("CleanArch.Infra.Data.Identity.User", null)
+                    b.HasOne("CleanArch.Infra.Data.Identity.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -363,7 +434,7 @@ namespace CleanArch.Infra.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("CleanArch.Infra.Data.Identity.User", null)
+                    b.HasOne("CleanArch.Infra.Data.Identity.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -378,7 +449,7 @@ namespace CleanArch.Infra.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("CleanArch.Infra.Data.Identity.User", null)
+                    b.HasOne("CleanArch.Infra.Data.Identity.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -387,7 +458,7 @@ namespace CleanArch.Infra.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("CleanArch.Infra.Data.Identity.User", null)
+                    b.HasOne("CleanArch.Infra.Data.Identity.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -397,6 +468,11 @@ namespace CleanArch.Infra.Data.Migrations
             modelBuilder.Entity("CleanArch.Domain.Entities.Category", b =>
                 {
                     b.Navigation("ProductCategories");
+                });
+
+            modelBuilder.Entity("CleanArch.Domain.Entities.Invoice", b =>
+                {
+                    b.Navigation("InvoiceProducts");
                 });
 
             modelBuilder.Entity("CleanArch.Domain.Entities.Product", b =>

@@ -1,7 +1,7 @@
 @using CleanArch.Infra.Data.Identity
 @using CleanArch.MVC.Areas.Identity.Pages.Account.Manage
 @using Microsoft.AspNetCore.Identity
-@inject SignInManager<User> SignInManager
+@inject SignInManager<ApplicationUser> SignInManager
 @{
     var hasExternalLogins = (await SignInManager.GetExternalAuthenticationSchemesAsync()).Any();
 }

@@ -13,8 +13,9 @@ namespace CleanArch.Application.Mappings
     {
         public DomainToViewModelMappingProfile() {
             CreateMap<Product, ProductViewModel>();
-           
             CreateMap<Category, CategoryViewModel>();
+            CreateMap<Invoice, InvoiceViewModel>();
+            CreateMap<InvoiceProduct, InvoiceProductViewModel>();
         }
     }
 }

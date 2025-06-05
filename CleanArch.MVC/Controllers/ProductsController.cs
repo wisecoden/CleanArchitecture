@@ -61,7 +61,7 @@ namespace CleanArch.MVC.Controllers
 
 
         [HttpPost()]
-        public IActionResult Edit([Bind("Id,Name,Description,Price")] ProductViewModel productVM)
+        public IActionResult Edit(ProductViewModel productVM)
         {
             if (ModelState.IsValid) {
 

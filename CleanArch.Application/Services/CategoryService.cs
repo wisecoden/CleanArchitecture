@@ -13,24 +13,24 @@ namespace CleanArch.Application.Services
 {
     public class CategoryService : ICategoryService
     {
-        private readonly ICategoryRepository _repo;
+        private readonly ICategoryRepository _categoryrepository;
         private readonly IMapper _mapper;
 
-        public CategoryService(ICategoryRepository repo, IMapper mapper)
+        public CategoryService(ICategoryRepository categoryrepository, IMapper mapper)
         {
-            _repo = repo;
+            _categoryrepository = categoryrepository;
             _mapper = mapper;
         }
 
         public async Task<IEnumerable<CategoryViewModel>> GetAllAsync()
         {
-            var entities = await _repo.GetAllAsync();
+            var entities = await _categoryrepository.GetAllAsync();
             return _mapper.Map<IEnumerable<CategoryViewModel>>(entities);
         }
 
         public async Task<CategoryViewModel> GetByIdAsync(int id)
         {
-            var entity = await _repo.GetByIdAsync(id);
+            var entity = await _categoryrepository.GetByIdAsync(id);
             return _mapper.Map<CategoryViewModel>(entity);
         }
     }

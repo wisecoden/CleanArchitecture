@@ -21,13 +21,13 @@ namespace CleanArch.MVC.Areas.Identity.Pages.Account.Manage
         private readonly UserManager<
             
             
-                User> _userManager;
-        private readonly SignInManager<User> _signInManager;
+                ApplicationUser> _userManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly IEmailSender _emailSender;
 
         public EmailModel(
-            UserManager<User> userManager,
-            SignInManager<User> signInManager,
+            UserManager<ApplicationUser> userManager,
+            SignInManager<ApplicationUser> signInManager,
             IEmailSender emailSender)
         {
             _userManager = userManager;
@@ -79,7 +79,7 @@ namespace CleanArch.MVC.Areas.Identity.Pages.Account.Manage
 
         private async Task LoadAsync(IdentityUser user)
         {
-            var email = await _userManager.GetEmailAsync((User)user);
+            var email = await _userManager.GetEmailAsync((ApplicationUser)user);
             Email = email;
 
             Input = new InputModel
@@ -87,7 +87,7 @@ namespace CleanArch.MVC.Areas.Identity.Pages.Account.Manage
                 NewEmail = email,
             };
 
-            IsEmailConfirmed = await _userManager.IsEmailConfirmedAsync((User)user);
+            IsEmailConfirmed = await _userManager.IsEmailConfirmedAsync((ApplicationUser)user);
         }
 
         public async Task<IActionResult> OnGetAsync()

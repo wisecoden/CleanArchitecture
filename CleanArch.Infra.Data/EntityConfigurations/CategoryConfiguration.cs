@@ -19,7 +19,7 @@ namespace CleanArch.Infra.Data.EntityConfigurations
                 .HasMaxLength(100)
                 .IsRequired();
 
-            // Exemplo de seed data (opcional)
+            
             builder.HasData(
                 new Category { Id = 1, Name = "Mercearia" },
                 new Category { Id = 2, Name = "Ferragem" },
