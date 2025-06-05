@@ -45,3 +45,7 @@ O projeto feito com ASP.NET Core e usa uma arquitetura limpa em camadas para man
      ```bash
      dotnet run --project CleanArch.MVC
      ```
+
+---
+
+Feito by [Wisecode](https://github.com/wisecoden)
